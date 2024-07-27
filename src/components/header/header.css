@@ -119,7 +119,6 @@
         padding: 1rem 0;
     }
     .nav-links:hover{
-        background-color: #FF014F;
         backdrop-filter: blur(20px);
     }
     .nav-menubar{

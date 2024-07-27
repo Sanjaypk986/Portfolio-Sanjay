@@ -1,0 +1,32 @@
+.nav-links-button{
+    position: relative;
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+    border: 2px solid #30845A;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 4px;
+    font-weight: 500;
+    color: white;
+    overflow: hidden;
+    display: inline-block; 
+}
+.nav-links-button::before {
+    content: '';
+    position: absolute;
+    top: 0; /* Start position below the link */
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #30845A; /* Background color on hover */
+    transition: top 0.3s ease-in-out; /* Animation timing */
+    z-index: -1; /* Place behind the text */
+}
+
+.nav-links-button:hover::before {
+    top: 100%; /* Move to visible area on hover */
+}
+
+.nav-links-button::after {
+    content: ''; /* Ensure no extra content */
+}
