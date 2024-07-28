@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        'custom-green': '#30845A',
+        'custom-green': '#54A45F',
       },
     },
   },
