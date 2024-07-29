@@ -1,32 +1,32 @@
 export const MenuData = [
   {
     title: "Home",
-    url: "#",
+    url: "/",
     csName: "nav-links",
     icon: "fa-solid fa-house-user",
   },
   {
     title: "About",
-    url: "#",
+    url: "/about",
     csName: "nav-links",
     icon: "fa-solid fa-circle-info",
   },
   {
     title: "Projects",
-    url: "#",
+    url: "/projects",
     csName: "nav-links",
     icon: "fa-solid fa-briefcase",
   },
   {
-    title: "Blog",
-    url: "#",
+    title: "Skills",
+    url: "/skills",
     csName: "nav-links",
-    icon: "fa-solid fa-list",
+    icon: "fa-solid fa-laptop",
   },
 
   {
     title: "Contact",
-    url: "#",
+    url: "/contact",
     csName: "nav-links-mobile",
   },
 ];

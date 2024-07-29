@@ -33,7 +33,7 @@ const Home = () => {
                 <Link className="primary-button">Connect Me</Link>
               </div>
               <div>
-                <Link className="secondary-button">Download CV</Link>
+                <Link className="secondary-button">View Projects</Link>
               </div>
             </div>
           </div>
