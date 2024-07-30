@@ -56,7 +56,6 @@
     position: relative;
     padding: 0.5rem 1rem;
     white-space: nowrap;
-    border: 2px solid #54A45F;
     text-decoration: none;
     font-size: 1rem;
     border-radius: 4px;
@@ -64,6 +63,11 @@
     color: white;
     overflow: hidden;
     display: inline-block; /* Ensure the link fits the content */
+    box-shadow: 0 2px 4px rgba(84, 164, 95, 0.5), 
+                0 -2px 4px rgba(84, 164, 95, 0.5), 
+                2px 0 4px rgba(84, 164, 95, 0.5), 
+                -2px 0 4px rgba(84, 164, 95, 0.5);
+                transition: all 0.3s ease-in-out;
 }
 
 .nav-links-mobile::before {

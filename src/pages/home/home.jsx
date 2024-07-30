@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./home.css";
 import avatar from "../../assets/avatar8.png";
+import "./home.css";
 
 const Home = () => {
   return (
-    <main className="flex justify-center items-center">
+    <main>
       <section className="container mx-auto my-4">
         <div className="grid grid-cols-1 md:grid-cols-2 mx-auto p-4 gap-2 lg:gap-4 lg:w-3/4">
           <div className="text-gray-300 flex flex-col justify-center items-center md:items-start gap-4">
@@ -30,15 +30,15 @@ const Home = () => {
             </p>
             <div className="grid grid-cols-2 gap-4 justify-around sm:w-3/4">
               <div>
-                <Link className="primary-button">Connect Me</Link>
+                <Link className="primary-button ">Connect Me</Link>
               </div>
               <div>
-                <Link className="secondary-button">View Projects</Link>
+              <Link className="secondary-button ">View Projects</Link>
               </div>
             </div>
           </div>
           <div className="flex justify-center items-center mt-2 md:mt-0">
-            <div className="px-3 rounded-md shadow-xl card flex justify-center items-center">
+            <div className="px-3 rounded-md shadow-xl bg-gradient-to-r from-[#212429] to-[#2a2d30] card-image flex justify-center items-center">
               <img
                 className="rounded-2xl w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96"
                 src={avatar}
