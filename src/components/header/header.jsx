@@ -14,7 +14,7 @@ const Header = () => {
       <nav className="navbarItems flex justify-between items-center rounded-lg">
         <span className="cursor-pointer">
           <Link to={"/"}>
-            <img className="w-36 h-20" src={logo} alt="logo" />
+            <img className="w-36 h-36" src={logo} alt="logo" />
           </Link>
         </span>
         <div className="nav-menubar">

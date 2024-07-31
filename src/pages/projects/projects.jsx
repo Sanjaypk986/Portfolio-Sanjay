@@ -5,7 +5,8 @@ const Projects = () => {
   return (
     <main>
       <section className="container mx-auto text-gray-300">
-        <h2 className="text-2xl lg:text-3xl font-semibold text-center ">
+        <h2 className="text-xl sm:text-3xl font-semibold text-center relative">
+        <span className="absolute inset-x-0 bottom-0 h-1 bg-gray-700 rounded-full mx-auto w-1/4 transform translate-y-2"></span>
           <span className="text-custom-green font-semibold mr-2">&#8212;</span>
           Projects That{" "}
           <span className="text-custom-green font-bold">Define Me</span>

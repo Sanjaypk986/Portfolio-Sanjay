@@ -30,10 +30,10 @@ const Home = () => {
             </p>
             <div className="grid grid-cols-2 gap-4 justify-around sm:w-3/4">
               <div>
-                <Link className="primary-button ">Connect Me</Link>
+                <Link to={'/contact'} className="primary-button ">Connect Me</Link>
               </div>
               <div>
-              <Link className="secondary-button ">View Projects</Link>
+              <Link to={'/projects'} className="secondary-button ">View Projects</Link>
               </div>
             </div>
           </div>

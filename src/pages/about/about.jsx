@@ -1,7 +1,6 @@
 import React from "react";
 import "./about.css";
 import avatar from "../../assets/avatar7.png";
-import { Link } from "react-router-dom";
 const About = () => {
   return (
     <main>
@@ -26,21 +25,21 @@ const About = () => {
             </p>
             <div className="grid md:grid-cols-2 gap-4 justify-center md:justify-around sm:w-3/4">
               <div className="flex justify-center items-center animate-bounce">
-                <Link className="primary-button card-shadow">Download CV</Link>
+                <a href="../../assets/cv.pdf" download="Sanjay_PK_CV.pdf" className="primary-button card-shadow">Download CV</a>
               </div>
               <div className="flex items-center gap-4">
-                <Link className="social-icon card-shadow ">
+                <a href="https://www.linkedin.com/in/sanjay-pk-93884a213/" className="social-icon card-shadow ">
                   <i class="fa-brands fa-linkedin"></i>
-                </Link>
-                <Link className="social-icon card-shadow">
+                </a>
+                <a href="https://github.com/Sanjaypk986" className="social-icon card-shadow">
                   <i class="fa-brands fa-github"></i>
-                </Link>
-                <Link className="social-icon card-shadow">
+                </a>
+                <a href='https://gitlab.com/sanjaypk986' className="social-icon card-shadow">
                   <i class="fa-brands fa-gitlab"></i>
-                </Link>
-                <Link className="social-icon card-shadow">
+                </a>
+                <a href="https://www.instagram.com/s__n_j_a__y?igsh=MXNmZHFlMzN1emZrcA==" className="social-icon card-shadow">
                   <i class="fa-brands fa-instagram"></i>
-                </Link>
+                </a>
               </div>
             </div>
           </div>
