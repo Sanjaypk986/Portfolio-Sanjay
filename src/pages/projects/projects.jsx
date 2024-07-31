@@ -12,7 +12,7 @@ const Projects = () => {
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 my-2 md:grid-cols-3 mx-auto p-4 gap-2 md-w-full lg:gap-4 lg:w-4/5">
           <div className="my-2">
-            <div className="card bg-base-100 card-shadow relative overflow-hidden">
+            <div className="card bg-base-100 skill-icon relative overflow-hidden">
               <div className="card-body">
                 <h2 className="card-title">FilmFlick</h2>
                 <p>
@@ -51,7 +51,7 @@ const Projects = () => {
           </div>
 
           <div className="my-2">
-            <div className="card bg-base-100 card-shadow relative overflow-hidden">
+            <div className="card bg-base-100 skill-icon relative overflow-hidden">
               <div className="card-body">
                 <h2 className="card-title">Taskly</h2>
                 <p>
@@ -90,7 +90,7 @@ const Projects = () => {
             </div>
           </div>
           <div className="my-2">
-            <div className="card bg-base-100 card-shadow relative overflow-hidden">
+            <div className="card bg-base-100 skill-icon relative overflow-hidden">
               <div className="card-body">
                 <h2 className="card-title">AquaDream</h2>
                 <p className="card-description">

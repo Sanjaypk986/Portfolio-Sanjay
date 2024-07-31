@@ -84,6 +84,7 @@
 
 .nav-links-mobile:hover::before {
     top: 0; /* Move to visible area on hover */
+    color: white;
 }
 
 .nav-links-mobile::after {

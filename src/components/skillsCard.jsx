@@ -55,10 +55,10 @@ const SkillsCard = () => {
                 alt: "vite",
               },
             ].map(({ src, alt }, index) => (
-              <div key={index} className="my-2 group">
-                <div className="px-3 py-1 rounded-md shadow-xl bg-gradient-to-r from-[#212429] to-[#2a2d30] card-shadow flex justify-center items-center">
+              <div key={index} className="my-2 group w-3/4">
+                <div className="p-1 rounded-md shadow-xl bg-gradient-to-r from-[#212429] to-[#2a2d30] skill-icon  flex justify-center items-center">
                   <img
-                    className="rounded-2xl max-w-16 max-h-16 transition-transform duration-300 transform group-hover:scale-110"
+                    className="rounded-2xl max-w-12 max-h-12 transition-transform duration-300 transform group-hover:scale-110"
                     src={src}
                     alt={alt}
                   />
@@ -92,10 +92,10 @@ const SkillsCard = () => {
                 alt: "api",
               },
             ].map(({ src, alt }, index) => (
-              <div key={index} className="my-2 group">
-                <div className="px-3 py-1 rounded-md shadow-xl bg-gradient-to-r from-[#212429] to-[#2a2d30] card-shadow flex justify-center items-center">
+              <div key={index} className="my-2 group w-3/4">
+                <div className="p-1 rounded-md shadow-xl bg-gradient-to-r from-[#212429] to-[#2a2d30] skill-icon  flex justify-center items-center">
                   <img
-                    className="rounded-2xl max-w-16 max-h-16 transition-transform duration-300 transform group-hover:scale-110"
+                    className="rounded-2xl max-w-12 max-h-12 transition-transform duration-300 transform group-hover:scale-110"
                     src={src}
                     alt={alt}
                   />

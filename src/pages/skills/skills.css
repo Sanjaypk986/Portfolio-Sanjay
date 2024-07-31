@@ -1,0 +1,14 @@
+.skill-icon{
+    box-shadow: 0 2px 4px rgba(84, 164, 95, 0.5), 
+                0 -2px 4px rgba(84, 164, 95, 0.5), 
+                2px 0 4px rgba(84, 164, 95, 0.5), 
+                -2px 0 4px rgba(84, 164, 95, 0.5); /* Box shadow */
+    transition: color 0.3s, box-shadow 0.3s; /* Smooth transitions */
+}
+
+.skill-icon:hover {
+    box-shadow: 0 4px 8px rgba(84, 164, 95, 0.7), 
+                0 -4px 8px rgba(84, 164, 95, 0.7), 
+                4px 0 8px rgba(84, 164, 95, 0.7), 
+                -4px 0 8px rgba(84, 164, 95, 0.7); /* Enhanced shadow on hover */
+}
