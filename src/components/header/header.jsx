@@ -25,7 +25,7 @@ const Header = () => {
         </div>
         <ul className={toggleMenu ? "nav-menu active" : "nav-menu"}>
           {MenuData.map((item, index) => (
-            <li key={index}>
+            <li key={index} onClick={()=> setToggleMenu(false)}>
               <Link to={item.url} className={item.csName}>
                 <i className={item.icon}></i>
                 {item.title}
