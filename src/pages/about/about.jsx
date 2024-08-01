@@ -25,7 +25,7 @@ const About = () => {
             </p>
             <div className="grid md:grid-cols-2 gap-4 justify-center md:justify-around sm:w-3/4">
               <div className="flex justify-center items-center animate-bounce">
-                <a href="../../assets/cv.pdf" download="Sanjay_PK_CV.pdf" className="primary-button card-shadow">Download CV</a>
+                <a href="/cv.pdf" download="Sanjay_PK_CV.pdf" className="primary-button card-shadow">Download CV</a>
               </div>
               <div className="flex items-center gap-4">
                 <a href="https://www.linkedin.com/in/sanjay-pk-93884a213/" className="social-icon card-shadow ">
