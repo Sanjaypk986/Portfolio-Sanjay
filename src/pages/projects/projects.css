@@ -1,7 +1,9 @@
 .card {
     position: relative;
   }
-  
+  .projects{
+    z-index: 1;
+  }
   .slide-in-overlay {
     position: absolute;
     top: 0;
